@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const question = document.querySelector('.question');
     question.innerHTML = 'Czy lubisz kawę?';
     question.classList.add('typing');
-  }
+  };
   writeQuestion();
 
   setTimeout(() => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const inputs = [...document.querySelectorAll('input[type="radio"]')];
     const resultBox = document.querySelector('#result');
 
-    resultBox.innerHTML = '<p class="response">waiting...</p>'
+    resultBox.innerHTML = '<p class="response">waiting...</p>';
 
     let result = '';
 

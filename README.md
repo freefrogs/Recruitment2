@@ -7,5 +7,5 @@ It is recruitment task project for the position Front-end Developer (2021)
 * Style the blocks so that they lie next each other at equal distances and widths. Add them blurry gray shadow and 1px red border. On mobile devices (<400 px width) blocks should be placed one above the other with a spacing of 30px.
 
 ### Used technologies:
-* HTML, CSS(with RWD & Kyeframes), SVG
-* JavaScript (including ES6+, fetch)
+* HTML, CSS (with RWD & Kyeframes), SVG
+* JavaScript (including ES6+, DOM events, fetch)
