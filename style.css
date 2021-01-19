@@ -69,6 +69,33 @@ form {
   text-align: center;
 }
 
+/* secound task */
+.secondTask {
+  padding: 50px 20px 20px;
+  text-align: center;
+}
+.blocksBox {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  position: relative;
+  width: 30%;
+  height: 30vh;
+  box-shadow: 0 0 10px gray;
+  border: 1px solid red;
+}
+.box p {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 @keyframes draw {
   to { stroke-dashoffset: 0; stroke: var(--main-dark); }
 }
@@ -103,5 +130,14 @@ form {
   }
   .coffe-box {
     width: 70%;
+  }
+}
+@media (max-width: 399px) {
+  .blocksBox {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }

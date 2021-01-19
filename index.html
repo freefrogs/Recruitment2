@@ -7,18 +7,30 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h2 class="question"></h2>
-  <form class="answerForm hide">
-    <label><input type="radio" name="answer" value="tak" checked>TAK</label>
-    <label><input type="radio" name="answer" value="nie">NIE</label>
-    <input class="sendAnswer" type="submit" value="WYŚLIJ">
-  </form>
-  <div id="result"></div>
-  <div class="coffe-box">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80">
-      <path class="coffee" d="M88.35,34.6a14,14,0,0,0-11-1c0-1.52.14-7.74.16-8,.08-1.52-1.8-1.52-1.8-1.52l-25.35,0H45.65l-25.35.05s-1.88,0-1.79,1.52S17.26,71.33,30.07,73.55h36c3.63-.64,7.14-7.11,8.34-12.41l5.31-2C94,53.59,94.62,38,88.35,34.6ZM85.49,49.42c-2.66,3.72-9.92,5.72-9.91,5.27,0-1.19,1.21-6.31,1.76-15.08,0-.87,5-3.16,8.43-.49S87.41,46.74,85.49,49.42Z"/>
-    </svg>
+  <div class="firstTask">
+    <h2 class="question"></h2>
+    <form class="answerForm hide">
+      <label><input type="radio" name="answer" value="tak" checked>TAK</label>
+      <label><input type="radio" name="answer" value="nie">NIE</label>
+      <input class="sendAnswer" type="submit" value="WYŚLIJ">
+    </form>
+    <div id="result"></div>
+    <div class="coffe-box">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80">
+        <path class="coffee" d="M88.35,34.6a14,14,0,0,0-11-1c0-1.52.14-7.74.16-8,.08-1.52-1.8-1.52-1.8-1.52l-25.35,0H45.65l-25.35.05s-1.88,0-1.79,1.52S17.26,71.33,30.07,73.55h36c3.63-.64,7.14-7.11,8.34-12.41l5.31-2C94,53.59,94.62,38,88.35,34.6ZM85.49,49.42c-2.66,3.72-9.92,5.72-9.91,5.27,0-1.19,1.21-6.31,1.76-15.08,0-.87,5-3.16,8.43-.49S87.41,46.74,85.49,49.42Z"/>
+      </svg>
+    </div>
   </div>
+  
+  <div class="secondTask">
+    <h2>Druga część zadania</h2>
+    <div class="blocksBox">
+      <div class="box"><p>blok 1</p></div>
+      <div class="box"><p>blok 2</p></div>
+      <div class="box"><p>blok 3</p></div>
+    </div>
+  </div>
+  
   <script src="script.js"></script>
 </body>
 </html>
