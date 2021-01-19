@@ -3,6 +3,7 @@
 :root {
   --main-dark: rgb(46, 23, 2);
   --main-light: rgb(252, 199, 50);
+  --width: 31%;
 }
 * {
   box-sizing: border-box;
@@ -67,13 +68,40 @@ form {
   padding-top: 20px;
   text-align: center;
 }
+
 @keyframes draw {
   to { stroke-dashoffset: 0; stroke: var(--main-dark); }
 }
 @keyframes write {
-  to { width: 31%; }
+  to { width: var(--width); }
 }
 @keyframes blink-c {
   from { border-right: 1px solid var(--main-dark); }
   to { border-right: 1px solid transparent; }
+}
+
+@media (max-width: 1400px) {
+  body {
+    --width: 50%;
+  }
+  .question {
+    font-size: 2em;
+  }
+  .coffe-box {
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    --width: 80%;
+  }
+  .question {
+    font-size: 1.5em;
+  }
+  .response {
+    font-size: 1em;
+  }
+  .coffe-box {
+    width: 70%;
+  }
 }
